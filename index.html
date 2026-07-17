@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+        <div class="container p-5 border  my-5 w-50 rounded shadow" style="background-color: rgb(184, 223, 236);">
+        <div class="row" id="getdata">
+            <div class="col">
+                <div class="text-center">
+                    <h1>Regestration Form </h1>
+                </div>
+                <div class="p-3">
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" onblur="checkName()"  class="form-control">
+                </div>
+                <div class="p-3">
+                    <label for="name">Phone*</label>
+                   <input type="text" id="phone" onblur="checkPhone()" class="form-control">
+
+                </div>
+                <div class="p-3">
+                    <label for="name">Email*</label>
+                    <input type="email" id="email" onblur="checkEmail()" class="form-control">
+
+                </div>
+                <div class="p-3">
+                    <label for="name">Password*</label>
+                    <input type="password" id="pdata" onblur="checkPassword()" class="form-control">
+
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-primary" onclick="checkdata()">Submit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
+    <!-- js connect -->
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
